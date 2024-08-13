@@ -6,13 +6,11 @@ public class PowerOfTwo {
             System.out.println("too much power");
 
         int counter = 0;
+        int num = 1;
         while (counter <= power) {
-            int num = 1;
-            for (int i = 0; i < power; i++) {
-                num = num * 2;
-            }
-
             System.out.println(num);
+            num = num * 2;
+            counter++;
         }
     }
 }
